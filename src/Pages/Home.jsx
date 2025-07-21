@@ -19,13 +19,13 @@ import { Card, CardContent } from "../Components/ui/card";
 import { Badge } from "../Components/ui/badge";
 import { Progress } from "../Components/ui/progress";
 
-import HeroSection from "../components/home/HeroSection";
-import PresaleSection from "../components/home/PresaleSection";
-import FeaturesGrid from "../components/home/FeaturesGrid";
-import TokenomicsSection from "../components/home/TokenomicsSection";
-import RoadmapSection from "../components/home/RoadmapSection";
-import UseCasesSection from "../components/home/UseCasesSection";
-import WhaleLeaderboard from "../components/home/WhaleLeaderboard";
+import HeroSection from "../Components/home/HeroSection";
+import PresaleSection from "../Components/home/PresaleSection";
+import FeaturesGrid from "../Components/home/FeaturesGrid";
+import TokenomicsSection from "../Components/home/TokenomicsSection";
+import RoadmapSection from "../Components/home/RoadmapSection";
+import UseCasesSection from "../Components/home/UseCasesSection";
+import WhaleLeaderboard from "../Components/home/WhaleLeaderboard";
 
 export default function Home() {
   return (
