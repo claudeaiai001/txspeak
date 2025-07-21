@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardContent } from "../Components/ui/card";
+import { Card, CardContent } from "../ui/card";
 import { CheckCircle, Clock, Zap, Target } from "lucide-react";
 
 export default function RoadmapSection() {
