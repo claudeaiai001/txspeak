@@ -36,4 +36,4 @@ if __name__ == '__main__':
     if w3.is_connected():
         print(f"Latest block: {w3.eth.block_number}")
     
-    app.run(host='0.0.0.0', port=8001, debug=True)
+    app.run(host='0.0.0.0', port=8002, debug=True)
