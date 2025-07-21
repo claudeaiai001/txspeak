@@ -1,11 +1,11 @@
 import React from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Slider } from "@/components/ui/slider";
-import { Switch } from "@/components/ui/switch";
-import { Badge } from "@/components/ui/badge";
+import { Card, CardContent, CardHeader, CardTitle } from "../Components/ui/card";
+import { Button } from "../Components/ui/button";
+import { Input } from "../Components/ui/input";
+import { Textarea } from "../Components/ui/textarea";
+import { Slider } from "../Components/ui/slider";
+import { Switch } from "../Components/ui/switch";
+import { Badge } from "../Components/ui/badge";
 import { 
   PenTool,
   Zap,

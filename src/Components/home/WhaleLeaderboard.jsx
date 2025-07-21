@@ -1,7 +1,7 @@
 import React from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { Card, CardContent, CardHeader, CardTitle } from "../Components/ui/card";
+import { Button } from "../Components/ui/button";
+import { Badge } from "../Components/ui/badge";
 import { Trophy, MessageSquare, Clock, Crown } from "lucide-react";
 
 export default function WhaleLeaderboard() {

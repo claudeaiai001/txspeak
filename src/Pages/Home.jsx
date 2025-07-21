@@ -14,10 +14,10 @@ import {
   Download,
   ExternalLink
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Progress } from "@/components/ui/progress";
+import { Button } from "../Components/ui/button";
+import { Card, CardContent } from "../Components/ui/card";
+import { Badge } from "../Components/ui/badge";
+import { Progress } from "../Components/ui/progress";
 
 import HeroSection from "../components/home/HeroSection";
 import PresaleSection from "../components/home/PresaleSection";
