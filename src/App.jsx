@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './Layout';
-import Home from './pages/Home';
-import Inbox from './pages/Inbox';
-import Compose from './pages/Compose';
-import Leaderboard from './pages/Leaderboard';
-import Settings from './pages/Settings';
+import Home from './Pages/Home';
+import Inbox from './Pages/Inbox';
+import Compose from './Pages/Compose';
+import Leaderboard from './Pages/Leaderboard';
+import Settings from './Pages/Settings';
 
 export default function App() {
   return (
