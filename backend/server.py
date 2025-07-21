@@ -214,8 +214,8 @@ def health_check():
     return jsonify({
         'status': 'healthy',
         'network': NETWORK,
-        'connected': w3.isConnected(),
-        'block_number': w3.eth.block_number if w3.isConnected() else None
+        'connected': w3.is_connected(),
+        'block_number': w3.eth.block_number if w3.is_connected() else None
     })
 
 @app.route('/api/contracts', methods=['GET'])
