@@ -417,8 +417,8 @@ def cache_updater():
 
 if __name__ == '__main__':
     print(f"Starting TXSPEAK Backend on {NETWORK} network")
-    print(f"Connected to Web3: {w3.isConnected()}")
-    print(f"Latest block: {w3.eth.block_number if w3.isConnected() else 'Not connected'}")
+    print(f"Connected to Web3: {w3.is_connected()}")
+    print(f"Latest block: {w3.eth.block_number if w3.is_connected() else 'Not connected'}")
     
     # Start background cache updater
     cache_thread = threading.Thread(target=cache_updater, daemon=True)
